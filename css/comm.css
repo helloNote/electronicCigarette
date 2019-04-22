@@ -1,0 +1,144 @@
+@charset "UTF-8";
+@media screen and (max-width: 600px) {
+  .row {
+    margin: 0 !important;
+  }
+
+  .section-1 {
+    background-size: inherit !important;
+  }
+
+  .catory-icon {
+    display: inline-block;
+    font-size: 24px;
+    top: 12px;
+  }
+
+  .catory-list {
+    position: absolute !important;
+    top: 50px !important;
+    right: -5px;
+    background: rgba(255, 255, 255, 0.3);
+    /* color: black; */
+    line-height: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 120%;
+  }
+
+  .catory-list li {
+    margin-left: 0 !important;
+    display: block !important;
+    /* padding: 10px; */
+  }
+
+  .section-1-text .section-1-texts {
+    left: 0 !important;
+    top: 0 !important;
+  }
+
+  .section-7-center {
+    padding: 30px 0;
+  }
+  .section-7-center.col-md-2 {
+    margin-bottom: 10px;
+  }
+
+  .is_show {
+    display: none;
+  }
+}
+/* 第一部分的开始 */
+.section-1 {
+  color: #fff;
+  overflow: hidden;
+  margin: 0;
+  padding: 20px;
+}
+
+.section-1 img {
+  width: 250px;
+}
+
+.section-1 a {
+  color: #fff;
+}
+
+.section-1 a:hover {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #fff;
+}
+
+.section-1 ul {
+  position: relative;
+  top: 25px;
+}
+
+.section-1 li {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.section-1 h2 {
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+.fs30 {
+  font-size: 28px;
+}
+
+.fs24 {
+  font-size: 18px;
+}
+
+.fs10 {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.section-1-text {
+  height: 100%;
+}
+
+.section-1-text .section-1-texts {
+  margin: auto;
+  left: 16%;
+  top: -14%;
+  line-height: 60px;
+}
+
+.section-1-txt {
+  line-height: 22px;
+}
+
+/* 第一部分的结束 */
+.section-7 {
+  background: #252525;
+  padding: 70px 0;
+  color: #fff;
+}
+.section-7 > div {
+  line-height: 30px;
+}
+.section-7 a {
+  color: rgba(255, 255, 255, 0.3);
+}
+.section-7 h4 {
+  font-size: 18px;
+}
+.section-7 i {
+  display: inline-block;
+  width: 20px;
+  height: 2px;
+  background: #fff;
+}
+.section-7 .section-7-center {
+  margin-top: 4%;
+  margin-bottom: 10px;
+}
+.section-7 .section-7-link a {
+  padding: 0 10px;
+}
+
+/*# sourceMappingURL=comm.css.map */

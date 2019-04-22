@@ -1,0 +1,567 @@
+@media screen and (max-width: 600px) { 
+
+    // 第二部分
+    .section-con{
+        height: auto !important;
+
+        .section-2{
+            overflow: hidden;
+        }
+        .section-2-left{
+            writing-mode: initial;
+
+            i{
+                width: 30px;
+                height: 1px;
+            }
+        }
+
+        .table-img{
+            padding: 20px;
+        }
+
+        .is_show{
+            display: none;
+        }
+        .section-shadow{
+            padding: 0;
+            position: initial;
+        }
+
+        .section-3-center img{
+            width: 100%;
+            height: auto;
+        }
+    }
+    .taste-con > div{
+        width: 50%;
+        float: left;
+    }
+    .arrows{
+        margin-bottom: 20px;
+    }
+    .section-5-left{
+        width: 100% !important;
+        position: initial !important;
+        writing-mode: initial !important;
+        margin-bottom: 20px;
+    }
+    .section-5-left i{
+        width: 30px !important;
+        height: 1px !important;
+    }
+    .section-5-right{
+        width: 100% !important;
+    }
+
+    .section-5-all .section-5-txt{
+        width: 100% !important;
+    }
+
+    .section-6 .section-6-con{
+        width: 100% !important;
+        height: auto !important;
+        display: block;
+
+        & >div{
+            margin: 20px 0 !important;
+        }
+    }
+
+ }
+
+ body{
+     overflow: hidden;
+     overflow-y: auto;
+ }
+
+
+/* 第一部分的开始 */
+.section-1{
+    background: url(../images/index-bg.jpg) no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    color: #fff;
+    overflow: hidden;
+    margin: 0;
+    padding: 20px ;
+}
+.section-1 img{
+    width: 250px;
+}
+.section-1 a{
+    color: #fff;
+}
+.section-1 a:hover{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+}
+.section-1 ul{
+    position: relative;
+    top: 25px;
+}
+.section-1 li{
+    display: inline-block;
+    margin-left: 40px;
+}
+.section-1 h2{
+    font-size:60px;
+    font-weight: bolder;
+}
+.fs30{
+    font-size: 28px;
+}
+.fs24{
+    font-size: 18px;
+}
+.fs10{
+    font-size: 10px;
+    color: rgba(255,255,255,.3);
+}
+.section-1-text{
+    height: 100%;
+}
+.section-1-text .section-1-texts{
+    margin: auto;
+    left: 16%;
+    top: -14%;
+    line-height: 60px;
+}
+.section-1-txt{
+    line-height: 22px;
+}
+
+
+
+/* 第一部分的结束 */
+
+
+/* 第二部的开始 */
+.section-2{
+    background: #fff;
+    box-sizing: border-box;
+    padding-top: 80px;
+    /* padding-bottom: 80px; */
+}
+.section-2-left{
+    writing-mode: vertical-lr;
+    vertical-align: text-top;
+    margin: auto;
+}
+.section-2-left h3{
+    font-weight: bold;
+    font-size: 25px;
+}
+.section-2-left i{
+    width: 1px;
+    height: 25px;
+    background: #858585;
+    margin: 0 15px;
+}
+.section-2-left p{
+    font-size: 10px;
+    color: #858585;
+}
+.section-2-center{
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+.section-2-center img{
+    width: 100%;
+}
+.section-2-right h2{
+    color: #e2ab30;
+    font-size: 40px;
+}
+.section-2-right i{
+    width: 1px;
+    height: 30px;
+    background: #858585;
+    margin-bottom: 10px;
+}
+.section-2-right{
+    color: #333;
+    margin: auto 0;
+}
+.section-2-right .fs30{
+    font-size: 28px;
+}
+.section-2-right .fwb{
+    padding-bottom: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid #bfbfbf;
+}
+.section-2-right-text{
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+.section-con{
+    margin-bottom: 50px;
+    height: 500px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.prl50{
+    padding: 0 50px;
+}
+.section-con > div{
+    height: 100%;
+}
+.table-img{
+    display: table;
+}
+.section-bg{
+    background: #eeeeee;
+    height: 450px;
+    width: 100px;
+    position: relative;
+    z-index: 99;
+    top: 25px;
+}
+.section-2-center{
+    position: relative;
+    z-index: 999;
+}
+.section-shadow{
+    /* box-shadow: -3px 3px 3px #e5e5e5; */
+    /* border: 1px solid #e5e5e5; */
+    padding: 20px 35px;
+    position: relative;
+    right: -32.5%;
+    z-index: 10000;
+    background: #fff;
+}
+.section-bg-3{
+    width: 50px;
+    background: #eeeeee;
+    height: 400px;
+    position: relative;
+    z-index: 99;
+    top: 50px;
+}
+.section-3-right{
+    background: #fff;
+    padding: 20px 35px;
+    position: relative;
+    left: -5%;
+    z-index: 999;
+}
+.section-3-right-bg{
+    background: #252525;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    top: 5%;
+}
+.section-3-center img{
+    width: 120%;
+    height: 55%;
+}
+.section-4-right{
+    right: -45%
+}
+.section-bg-4{
+    width: 50px;
+    background: #ffbe2d;
+    height: 350px;
+    position: relative;
+    top: 75px;
+}
+
+
+.taste-con1{
+    background: #e2ab30;
+    writing-mode: vertical-lr;
+    vertical-align: text-top;
+}
+.taste-con2{
+    background: #83e9fd;
+}
+.taste-con3{
+    background: #ffd59f;
+}
+.taste-con4{
+    background: #f08ceb;
+}
+.taste-con5{
+    background: #62efc5;
+}
+.taste-con6{
+    background: #baa396;
+}
+.taste-con > div{
+    height: 500px;
+}
+.taste-con img{
+    max-width: 100px;
+    max-height: 410px;
+    margin-top: 25px;
+}
+.taste-con a{
+    display: block;
+    padding: 5px 10px;
+    border: 1px solid #656565;
+    border-radius: 30px;
+    width: 90px;
+    margin: 15px auto;
+}
+.taste-con7{
+    background: #fcecba;
+}
+.taste-con8{
+    background: #fbca9a;
+}
+.taste-con9{
+    background: #ffa1c3;
+}
+.taste-con10{
+    background: #cdfba4;
+}
+.taste-con11{
+    background: #e7dbde;
+}
+.taste-con12{
+    background: #252525;
+}
+.taste-con1-wrap{
+    margin: 7% auto;
+    line-height: 25px;
+    color: #fff;
+}
+.taste-con1-wrap i{
+    width: 1px;
+    background: #fff;
+    height: 40px;
+    position: relative;
+    top: 5px;
+}
+.taste-con1-wrap h3{
+    font-weight: bold;
+}
+.taste-con12{
+    color: rgba(255,255,255,.8);
+}
+.taste-con12 i{
+    width: 30px;
+    height: 1px;
+    background: rgba(255,255,255,.8);
+}
+.taste-con12 h3{
+    color: #e2ab30;
+    margin: 15px 0;
+}
+.taste-con12-english{
+    line-height: 25px;
+}
+.taste-con12-wrap{
+    margin: auto;
+}
+/* 第二部的结束 */
+
+/* 第三部分开始 */
+.section-3{
+    background: #f6f6f6;
+    padding: 80px 0;
+}
+.section-3-img img{
+    width: 80%;
+}
+.safte-list li{
+    width: 31.33%;
+    display: inline-block;
+    /* text-align: center; */
+    margin: 10px 0;
+    /* line-height: 30px; */
+}
+.safte-list li img{
+    width: 70px;
+    margin-bottom: 10px;
+}
+.safte-list li > div{
+    width: 85px;
+    text-align: center;
+}
+.section-3-tit h3{
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+.section-3-tit{
+    margin-bottom: 30px;
+}
+/* 第三部分结束 */
+
+
+/* 第四部分开始 */
+.section-4{
+    padding: 80px 50px;
+}
+.dzy-imgs{
+    width: 100%;
+}
+.section-4-text{
+    width: 100%;
+    height: 40px;
+    background:#eeeeee;
+    line-height: 40px;
+}
+.section-4 a{
+    display: inline-block;
+    width: 40%;
+    height: 50px;
+    text-align: center;
+    background: #353535;
+    color: rgba(255,255,255,.8);
+    position: relative;
+    top: -10px;
+    line-height: 50px;
+}
+.section-4-left{
+    margin-top: 20%;
+    line-height: 30px;
+}
+.section-4-left i{
+    display: inline-block;
+    width: 30px;
+    height: 1px;
+    background: #333333;
+}
+.arrows{
+    margin-top: 20%;
+}
+.arrows > div{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.arrow-left{
+    background: #353535;
+}
+.arrow-right{
+    background: #e2ab30;
+}
+/* 第四部分结束 */
+
+
+/* 第五部分的开始 */
+
+.section-5{
+    padding: 80px 10%;
+    background: #232323;
+}
+.section-5-right{
+    width: 60%;
+    background: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.section-5-right img{
+    width: 100%;
+}
+.section-5-left{
+    background: #e2ab30;
+    width: 200px;
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    left: -7%;
+    writing-mode: vertical-lr;
+    color: #333333;
+    padding: 5% 3%;
+    box-sizing: border-box;
+}
+.section-5-left i{
+    display: inline-block;
+    width: 1px;
+    height: 30px;
+    background: #333;
+}
+.section-5-all{
+    width: 100%;
+    // height: 500px;
+    background: #fff;
+    overflow: hidden;
+    box-sizing: border-box;
+
+    .section-5-right{
+        width: 60%;
+
+        img{
+            width: 100%;
+        }
+    }
+
+    .section-5-txt{
+        width: 40%;
+        height: 100%;
+        padding: 5% 3%;
+    }
+
+    .mb30{
+        margin-bottom: 30px;
+    }
+
+    .color-q{
+        color: #858585;
+    }
+}
+/* 第五部分的结束 */
+
+
+// 第六部分开始
+.section-6{
+    padding:  80px 0;
+    color: #333;
+
+    .section-6-con{
+        width: 1200px;
+        margin: auto;
+
+        &.section-6-bottom{
+            height: 400px;
+
+            & > div{
+                margin: auto;
+                padding-right: 45px;
+
+                .section-6-center{
+                    border: 1px solid #d2d2d2;
+                    padding: 20px;
+                    box-sizing: border-box;
+
+                    img{
+                        width: 100%;
+                        margin-bottom: 35px;
+                    }
+
+                    .txt-organe{
+                        color: #e2ab30;
+                    }
+                }
+            }
+        }
+    }
+
+    i{
+        display: inline-block;
+        width: 30px;
+        height: 1px;
+        background: #333;
+        margin-bottom: 5px;
+    }
+
+    .section-6-con-title{
+        margin-bottom: 30px;
+    }
+
+    .section-6-1-txt{
+        margin-bottom: 20px;
+    }
+}
+// 第六部分结束

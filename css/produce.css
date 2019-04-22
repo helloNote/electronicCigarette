@@ -1,0 +1,175 @@
+@media screen and (max-width: 600px) {
+  .produce-1-img {
+    display: block;
+  }
+
+  .produce-1 .produce-left {
+    width: 100% !important;
+  }
+
+  .produce-1 .produce-right {
+    width: 100% !important;
+    display: block;
+    margin: 0 !important;
+    height: 400px;
+  }
+}
+.section-1 {
+  background: url("../images/produce-bg.png") no-repeat;
+  height: 400px;
+  background-size: 100% 100%;
+}
+.section-1 .section-1-texts {
+  justify-content: center;
+  justify-items: center;
+  height: 100%;
+  line-height: 20px;
+}
+.section-1 .section-1-texts i {
+  display: inline-block;
+  width: 30px;
+  height: 1px;
+  background: #fff;
+}
+.section-1 .section-1-texts p {
+  margin-top: 10px;
+}
+.section-1 .section-1-texts > div {
+  margin: auto;
+}
+
+.produce-1 {
+  padding: 50px;
+}
+.produce-1 .col-md-12 {
+  padding: 0;
+}
+.produce-1 .produce-1-bg {
+  background: #e2ab30;
+  padding: 20px;
+}
+.produce-1 .produce-left {
+  width: 60%;
+}
+.produce-1 .produce-left img {
+  width: 100%;
+}
+.produce-1 .produce-right {
+  width: 40%;
+  background: #fff;
+  margin-left: 20px;
+}
+.produce-1 .produce-right .carousel, .produce-1 .produce-right .carousel-inner, .produce-1 .produce-right .item {
+  height: 100%;
+}
+.produce-1 .produce-right .carousel .carousel-list, .produce-1 .produce-right .carousel-inner .carousel-list, .produce-1 .produce-right .item .carousel-list {
+  color: #333;
+  margin: auto 0;
+}
+.produce-1 .produce-right .carousel-indicators li {
+  background: #c9c9c9 !important;
+}
+.produce-1 .produce-right .carousel-indicators .active {
+  background: #e2ab30 !important;
+}
+.produce-1 .produce-right .carousel-caption {
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  padding: 30px;
+  text-align: left;
+  text-shadow: none;
+  display: flex;
+}
+.produce-1 .produce-right .carousel-caption h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15%;
+}
+.produce-1 .produce-right .carousel-caption h3 span {
+  font-size: 14px;
+  font-weight: normal;
+}
+.produce-1 .produce-right .carousel-caption h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #e2ab30;
+  border-bottom: 1px solid #c9c9c9;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.produce-1 .produce-right .carousel-caption h2 span {
+  color: #333;
+  font-size: 20px;
+}
+.produce-1 .produce-right .carousel-caption .link {
+  margin-top: 15%;
+}
+.produce-1 .produce-right .carousel-caption .link a {
+  display: inline-block;
+  width: 60px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  background: #252525;
+  color: #fff;
+}
+.produce-1 .produce-right .carousel-caption .link a.orange {
+  background: #e2ab30;
+  margin-left: -4px;
+}
+.produce-1 .produce-right .carousel-caption .link a img {
+  width: 25px;
+}
+
+.produce-2 {
+  padding: 0 50px 50px;
+}
+.produce-2 .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.produce-2 .cart {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background: #1f1f1f;
+  border-radius: 50%;
+}
+.produce-2 .cart:hover {
+  background: #e2ab30;
+}
+.produce-2 .cart img {
+  width: 45%;
+}
+.produce-2 .text-img {
+  width: 100%;
+}
+.produce-2 .text-img img {
+  width: 100%;
+}
+.produce-2 .text {
+  padding: 15px 10px;
+}
+.produce-2 .text .produce-txt {
+  width: 75%;
+  overflow: hidden;
+  color: #333;
+}
+.produce-2 .text .produce-txt p {
+  color: #e2ab30;
+  margin-top: 10px;
+}
+.produce-2 .text .produce-cart {
+  width: 25%;
+}
+.produce-2 .produce-title {
+  margin-bottom: 20px;
+}
+.produce-2 .col-md-3 {
+  margin-bottom: 30px;
+}
+
+/*# sourceMappingURL=produce.css.map */

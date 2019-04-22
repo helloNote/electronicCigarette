@@ -1,0 +1,178 @@
+
+/* 项目的基本的公共需要的样式，可以根据项目需求更改 */
+body{
+    color: #333;
+    font-size: 14px;
+}
+
+ul{ list-style: none;}
+a{ color: #333; }
+.text{ color: #858585}
+.over{overflow: hidden;}
+
+
+
+/* 字体的字号 */
+.fs9{font-size: 10px}
+.fs12{font-size: 12px}
+.fs14{font-size: 14px}
+.fs16{font-size: 16px}
+.fs18{font-size: 18px}
+.fs20{font-size: 20px}
+
+.fwb{font-weight: bold;}
+
+/* 浮动 */
+.fl{float: left;}
+.fr{float: right;}
+
+/* 文字的位置左右居中 */
+.tc{text-align: center}
+.tr{text-align: right}
+.tl{text-align: left}
+
+
+/* 定位 */
+.pa{position: absolute}
+.pr{position: relative}
+
+
+/* flex，包括flex的兼容性 */
+.flex{
+    display: -webkit-box;
+    display: -ms-flex-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+}
+
+/* display属性 */
+.inline{display: inline-block}
+.none{display: none}
+
+/* 去除输入框和按钮的outline样式 */
+input,button{outline: none}
+
+/* 鼠标的手指样式 */
+.cur{cursor: pointer;}
+
+/* h5新增样式，修复ie浏览器不能正常显示 */
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+/* 清除标签的默认样式，让各个浏览器能够通用显示 */
+html,body,
+div,p,dl,dt,dd,ul,ol,li,
+span,a,img,h1,h2,h3,h4,h5,h6,
+input,button,textarea,blockquote,
+table,legend,th,td,small,address,option {
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------------------------------- a标签 ---------------------------------------------- */
+/* 去掉 IE 10+ 点击链接时的灰色背景 */
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+    /* 2 */
+    -moz-text-decoration-skip: objects;
+    /* 2 */
+    -ms-text-decoration-skip: objects;
+    /* 2 */
+    -o-text-decoration-skip: objects;
+    /* 2 */
+    text-decoration-skip: objects;
+    /* 2 */
+}
+
+/**
+* Improve readability when focused and also mouse hovered in all browsers.*
+* 为所有浏览器改善当激活或悬停在元素上时元素内容的可读性。
+* 去掉点击时的焦点框，同时保证使用键盘可以显示焦点框
+*/
+a:active,
+a:hover {
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+/**
+* Address `outline` inconsistency between Chrome and other browsers.*
+* 处理 Chrome 与其它浏览器中关于 'outline' 的不一致性。
+*/
+a:focus {
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+/*----------------------------- box-sizing盒子模型 ----------------------------------- */
+/* padding和border不包含在盒子的宽度里的 */
+.box-content-box{
+    -webkit-box-sizing: content-box;
+    -o-box-sizing: content-box;
+    -ms-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+/* padding和border包含在盒子的宽度里的 */
+.box-border-box{
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* ----------------------- 文字的溢出和截断 ------------------------------------------- */
+/* 文字为1行，多余的加省略号 */
+.line-clamp1 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/* 文字为2行，多余的加省略号 */
+.line-clamp2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -webkit-text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
+    -moz-text-overflow: ellipsis;
+    word-break: break-all;
+    /* 这里的display必须用-webkit-box */
+    display: -webkit-box;
+    /* -webkit-line-clamp限制在一个块元素显示的文本的行数 */
+    -webkit-line-clamp: 2;
+    /* -webkit-box-orient排列方向*/
+    -webkit-box-orient: vertical;
+}
+
+/* ------------------ 修改placeholder的颜色 ----------------------------------------- */
+::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #cccccc;
+}
+
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #cccccc;
+}
+
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #cccccc;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #cccccc;
+}
